@@ -1,0 +1,16 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-100);
+  color: var(--white);
+  background-color: var(--green-500);
+  border: none;
+  border-radius: var(--spacing-100);
+  padding: var(--spacing-200) var(--spacing-400);
+  width: 100%;
+}
+img {
+  width: 1.125rem;
+  height: 1.125rem;
+}

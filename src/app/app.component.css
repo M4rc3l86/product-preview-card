@@ -1,1 +1,8 @@
 /* app.component.css */
+:host {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 95%;
+}
