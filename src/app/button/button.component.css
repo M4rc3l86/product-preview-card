@@ -1,16 +1,26 @@
+:host {
+  display: grid;
+}
 button {
-  display: flex;
+  cursor: pointer;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: var(--spacing-100);
   color: var(--white);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-500);
   background-color: var(--green-500);
   border: none;
   border-radius: var(--spacing-100);
   padding: var(--spacing-200) var(--spacing-400);
-  width: 100%;
 }
 img {
   width: 1.125rem;
   height: 1.125rem;
+}
+
+button:is(:hover, :focus-visible) {
+  outline: none;
+  background-color: var(--green-700);
 }

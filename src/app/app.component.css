@@ -1,8 +1,8 @@
 /* app.component.css */
 :host {
-  display: flex;
-  justify-content: center;
-}
-.wrapper {
-  width: 95%;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  margin: var(--spacing-200);
+  height: 100%;
 }
